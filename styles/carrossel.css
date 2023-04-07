@@ -61,6 +61,10 @@
     font-size: 14px;
 }
 
+.descricao__imagem {
+    margin-bottom: 0.5em;
+}
+
 .botoes {
     display: flex;
 }
