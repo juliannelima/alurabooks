@@ -64,7 +64,7 @@
     text-decoration: none;
 }
 
-.container__titulo, .opcoes, .opcoes__botao {
+.container__titulo, .opcoes, .opcoes__botao, .container__texto {
     display: none;
 }
 
@@ -104,5 +104,28 @@
     .opcoes__botao:checked~.lista-menu {
         display: block;
         width: auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho{
+        padding: 0 2em;
+    }
+    .container__link {
+        display: flex;
+        align-items: center;
+
+        text-decoration: none;
+        color:var(--preto);
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .container__texto {
+        display: block;
+    }
+
+    .opcoes {
+        margin-right: auto;
     }
 }
